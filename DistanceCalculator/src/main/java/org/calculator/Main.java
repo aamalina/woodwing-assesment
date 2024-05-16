@@ -19,6 +19,8 @@ public class Main {
         System.out.print("Metres or yard? ");
         String unit2 = scanner.next();
 
+        System.out.print("Expected unit in metres or yard? ");
+        String expectedUnit = scanner.next();
 
     }
 }

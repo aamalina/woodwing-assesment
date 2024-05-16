@@ -7,6 +7,9 @@ import lombok.Setter;
 @Getter
 public class ParameterRequest {
 
-    private Integer distance1;
-    private Integer distance2;
+    private Double distance1;
+    private Double distance2;
+    private String unit1;
+    private String unit2;
+    private String expectedUnit;
 }
