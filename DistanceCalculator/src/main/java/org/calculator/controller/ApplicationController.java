@@ -1,6 +1,5 @@
 package org.calculator.controller;
 
-
 import org.calculator.pojo.ParameterRequest;
 import org.calculator.pojo.SumResponse;
 import org.calculator.service.ParameterService;
