@@ -16,7 +16,7 @@ public class ParameterServiceImpl implements ParameterService{
                 parameterRequest.setDistance1(newDistance);
             }
             if (!isMetre(parameterRequest.getUnit2())){
-                Double newDistance = unitConverter(parameterRequest.getDistance1(), "m");
+                Double newDistance = unitConverter(parameterRequest.getDistance2(), "m");
                 parameterRequest.setDistance2(newDistance);
             }
         }
@@ -26,7 +26,7 @@ public class ParameterServiceImpl implements ParameterService{
                 parameterRequest.setDistance1(newDistance);
             }
             if (isMetre(parameterRequest.getUnit2())){
-                Double newDistance = unitConverter(parameterRequest.getDistance1(), "y");
+                Double newDistance = unitConverter(parameterRequest.getDistance2(), "y");
                 parameterRequest.setDistance2(newDistance);
             }
         }
