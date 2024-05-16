@@ -7,6 +7,6 @@ import lombok.Setter;
 @Getter
 public class ParameterRequest {
 
-    private Integer param1;
-    private Integer param2;
+    private Integer distance1;
+    private Integer distance2;
 }

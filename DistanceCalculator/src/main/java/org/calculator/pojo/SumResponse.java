@@ -7,5 +7,5 @@ import lombok.Setter;
 @Getter
 public class SumResponse {
 
-    private Integer param3;
+    private Integer sumDistance;
 }
